@@ -1,0 +1,40 @@
+{
+  "DQN": {
+    "parameters": {
+      "BUFFER_SIZE": 100000,
+      "BATCH_SIZE": 64,
+      "GAMMA": 1,
+      "TAU": 0.001,
+      "LR": 0.0005,
+      "UPDATE_EVERY": 4
+    },
+    "episodes_data": {
+      "episodes": [
+        0.0,
+        1.0
+      ],
+      "best_average": -Infinity,
+      "episodes_to_solve": 0
+    }
+  },
+  "DDQN": {
+    "parameters": {
+      "BUFFER_SIZE": 100000,
+      "BATCH_SIZE": 32,
+      "GAMMA": 0.99,
+      "TAU": 0.005,
+      "LR": 0.0005,
+      "UPDATE_EVERY": 4,
+      "EPS_START": 1,
+      "EPS_END": 0.05,
+      "EPS_DECAY": 0.995
+    },
+    "episodes_data": {
+      "episodes": [
+        0.0
+      ],
+      "best_average": -Infinity,
+      "episodes_to_solve": 0
+    }
+  }
+}

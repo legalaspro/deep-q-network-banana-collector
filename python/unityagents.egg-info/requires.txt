@@ -1,0 +1,12 @@
+Pillow==9.4.0
+matplotlib==3.7.2
+jupyter==1.0.0
+pytest==8.2.0
+docopt==0.6.2
+protobuf==3.20.3
+grpcio==1.63.0
+pandas==2.0.3
+scipy==1.11.2
+ipykernel==6.29.4
+google==3.0.0
+google-apputils==0.4.2
